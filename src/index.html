@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>estuDÍA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" media="screen and (min-width: 200px)">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+  <title>estuDÍA</title>
 </head>
 <body>
-  <header class="my-header">
+  <div id="firstPage">
+  <div id= "firstElement">
+  <p><img class="imgIPN" src="img/logo-ipn-blanco.png" style="width:200px; height:auto;"></p>
+  <h1>e s t u D Í A</h1><br>
+  <p>¡Bienvenido/a!</p><br>
+  <div id="createUser"> 
+    <p><input class="boxInput" id="namelNw" type="text" placeholder="Ingrese nombre de usuario"> </p> <br>
+    <p><input class="boxInput" id="emailNw" type="email" placeholder="Ingrese correo electrónico"> </p> <br>
+    <p><input class="boxInput" id="passwordNw" type="password" placeholder="Nueva contraseña"></p><br>
+    <p><button class="logIn" id="createUserNw"> Registrar </button></p></div>
+<div id='logingUsers'>
+  <p><input class="boxInput" id="email" type="email" placeholder="Correo electrónico"> </p> <br>
+  <p><input class="boxInput" id="password" type="password" placeholder="Contraseña"></p> <br>
+  <p><button class="logIn" id="logInUser"> Ingresar </button></p> <br>
+  <p>Ingresa con </p> <br>
+  <p><img id="loginFacebook" class="imgFace" src="img/facebook.svg" style="width:40px; height:auto;"> <img id="loginGoogle"class="imgGmail" src="img/gmail.svg" style="width:40px; height:auto;"></p><br>
+  <p id="newUser">¿Ya tienes cuenta? <strong>Regístrate</strong></p>
+</div>
+  
+  </div>
+</div>
+
+<div id="allTheSite">
+  <div id='header' class="my-header">
     <div class="container flex-box-horizontal">
       <div class="logo">
         <a href="index.html">
@@ -19,9 +42,10 @@
       </div>
       <div class="user">
         <img src="img/info.png">
+        <button id="logOut" class="logingOut">Cerrar sesión</button>
       </div>
     </div>
-  </header>
+  </div>
   <main>
     <!-- Text Box-->
     <section>
@@ -29,13 +53,14 @@
         <div class="margin-top">
           <div class="col-4">
             <div class="subtitle">
-              <h3>¡Hola Shari!</h3>
+              <div id="sayHi"></div>
+              
             </div>
             <div class="text-box">
               <div class="width-data">
                 <form>
                   <input type="text" id="text-box">
-                  <input type="submit" value="Compartir">
+                  <input type="submit" id="botonCompartir" value="Compartir">
                 </form>
               </div>
             </div>
@@ -97,8 +122,8 @@
               <div id="tab-content-charts" class="tab-content" role="tabpanel" aria-labelledby="description"
                 aria-hidden="false">
                 <div class="search">
-                  <input type="text" class="search-Box" id="search" placeholder="Buscar...">
-                  <input type="button" class="search-Btn" id="search" value="Buscar">
+                  <input type="text" class="search-Box" id="searchT" placeholder="Buscar...">
+                  <input type="button" class="search-Btn" id="search1" value="Buscar">
                 </div>
                 <div class="subtitle">
                   <h3>Test Vocacional</h3>
@@ -142,6 +167,30 @@
       </div>
     </section>
   </main>
- <!--  <script type="module" src="main.js"></script> -->
+</div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+ <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+ <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+ 
+ <script>
+   // Your web app's Firebase configuration
+   var firebaseConfig = {
+     apiKey: "AIzaSyB-S-fofVCcshafWHzbUi6pnfeAdPPjYfo",
+     authDomain: "social-nerwork.firebaseapp.com",
+     databaseURL: "https://social-nerwork.firebaseio.com",
+     projectId: "social-nerwork",
+     storageBucket: "social-nerwork.appspot.com",
+     messagingSenderId: "574784343818",
+     appId: "1:574784343818:web:43ad089e0324bbf79774f3",
+     measurementId: "G-QC2RFEXKFR"
+   };
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+   firebase.analytics();
+ </script>
+<script type="module" src="index.js"></script>
 </body>
 </html>
