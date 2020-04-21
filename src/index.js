@@ -1,8 +1,3 @@
-//import { example } from './example.js';
-//
-//example();
-//import {firebase} from '@firebase/app';
-//require('firebase/auth');
 let allApp;
 let createNewuser= document.getElementById('createUserNw');
 createNewuser.addEventListener('click', () => {
@@ -71,30 +66,21 @@ theWatcher();
 function printSite() {
 document.getElementById('firstPage').style.display= 'none';
 document.getElementById('allTheSite').style.display= 'block';
-//allApp = ` 
-
-//let placeToPrint= document.getElementById('allTheSite');
-//placeToPrint.innerHTML= allApp;
-
 }   
 
 let btnGoogle = document.getElementById('loginGoogle');
 btnGoogle.addEventListener('click', ()=>{
   const provedorGoogle = new firebase.auth.GoogleAuthProvider();
     firebase.auth().signInWithPopup(provedorGoogle).then(function(result){
-        console.log(result.user);
         const nameUser = result.user.displayName;
         const imgProfile = result.user.photoURL;
         console.log(nameUser);
         console.log(imgProfile);
 
-
-
-
-    });
+      });
 });
 
-
+ 
 
 let btnFacebook = document.getElementById('loginFacebook');
 btnFacebook.addEventListener('click', () =>{
@@ -105,32 +91,16 @@ btnFacebook.addEventListener('click', () =>{
 
 });
 
-
-let prueba= document.getElementById('botonCompartir');
-prueba.addEventListener('click', () =>{
-let cosa= document.getElementById('text-box').value;
-let dondeImprimir= document.getElementById('tab-content-table');
-dondeImprimir.innerHTML=cosa;
-});
-
 function inicializarFireBase(){
-  //let showName = document.getElementById('sayHi');
+  let showName = document.getElementById('sayHi');
+  let showImage = document.getElementById('imgProfile');
   firebase.auth().onAuthStateChanged(function (user){
     if(user){
-      var getName = user.displayName;
-      console.log(getName)
-      //showName.innerHTML = ' hola ' + getName;
-      let showImage = document.getElementById('sayHi');
+      let getName = user.displayName;
       let getImage = user.photoURL;
-
-
-    let photo=` <figure> <img  style="width:70px; height:auto; class= "imageBox" src ="${getImage}"> </figure> ` 
-    showImage.innerHTML= ' ¡Hola ' +  getName +'!' +  photo ;
-      //showImage.append("<img src= ")
-
-      //let imgPlace= document.createElement('img');
-      //imgPlace.src= getImage;
-      //showImage.appendChild('imgPlace');
+      showName.innerHTML = '¡Hola ' + getName +'!';
+      let photo=` <figure> <img class= "imageBox" src ="${getImage}"> </figure> ` 
+      showImage.innerHTML=photo;
     }
   });
 }
@@ -153,3 +123,61 @@ document.getElementById('allTheSite').style.display= 'none';
   })
  
 });
+
+
+  
+let publicationsDataBase = document.querySelector("#publication");
+let addBtn=document.querySelector("#btnShare");
+let form=document.querySelector("#add-comment-form");
+
+
+//create publications
+function renderPublications(doc){
+  let li = document.createElement("li");
+  let comment = document.createElement("span");
+  let cross= document.createElement("comments");
+
+
+
+  
+  li.setAttribute("data-id",doc.id);
+  comment.textContent=doc.data().comment;
+  cross.textContent= "x";
+ 
+ 
+  li.appendChild(comment);
+  li.appendChild(cross);
+
+ 
+ publicationsDataBase.appendChild(li);
+
+ //deleting data
+ cross.addEventListener("click", (e) => {
+   e.stopPropagation();
+   let id = e.target.parentElement.getAttribute("data-id");
+   db.collection("publications").doc(id).delete();
+ })
+
+}
+
+//Promise that brings the data from the Cloud Firestore
+ db.collection("publications").get().then((snapshot)=>{
+//console.log(snapshot.docs);
+snapshot.docs.forEach(doc => {
+  //console.log(doc.data());
+  renderPublications(doc);
+})
+});
+
+//saving data
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  db.collection('publications').add({
+      comment: form.btnShare.value,
+  });
+  form.btnShare.value = '';
+});
+
+
+
