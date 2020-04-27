@@ -91,9 +91,13 @@ Buscamos el feedback en cinco ocasiones de nuestras compañeras de bootcamp.
 
 Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, también tomamos en cuenta los colores oficiales del Instituto Politécnico Nacional: guinda y blanco. El prototipo de alta fidelidad se desarrolló en Figma.
 
+<img src="src/img/inicioSesión.png"> 
+<img src="src/img/noticias.png"> 
+<img src="src/img/publicaciones.png"> 
+<img src="src/img/modal.png"> 
 
-### Objetivos de aprendizaje
 
+### :pencil: OBJETIVOS DE APRENDIZAJE 
 
 ### HTML y CSS
 
