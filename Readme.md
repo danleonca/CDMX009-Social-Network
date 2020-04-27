@@ -1,4 +1,4 @@
-# :book : estuDÍA
+# :book: estuDÍA
 
 El objetivo de este proyecto es construir una Red Social, Single-Page Application (SPA), responsiva en la que podamos escribir, leer, actualizar y eliminar datos. Es el primer proyecto del track FrontEnd de <Laboratoria>.
   
@@ -27,7 +27,7 @@ estuDÍA se crea con la finalidad de crear una red de apoyo para el proceso de a
 
 ### :hourglass_flowing_sand: ¡A TRABAJAR! 
 Para poder tener una distribución homogénea sobre las tareas a realizar y estar informadas de las catividades nos apoyamos de la herramienta Pojcts" de GitHub, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la tres integrantes del equipo.
-<img src="src/img/project.png"> 
+<img src="src/img/projects.png"> 
 
 
 
