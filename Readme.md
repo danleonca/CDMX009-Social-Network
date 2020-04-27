@@ -5,7 +5,7 @@ The objective of this project is to build a responsive Single-Page Application (
 
 ### :bulb: IDEA SELECTION
 
-The theme chosen was education. ** estuDÍA ** is a social network in which users have an interest in entering higher education specifically at the Instituto Politécnico Nacional. 
+The theme chosen was education. **estuDÍA** is a social network in which users have an interest in entering higher education specifically at the Instituto Politécnico Nacional. 
 
 
 ### :girl: :boy: USERS
@@ -24,7 +24,7 @@ The UNAM and the IPN two of the best universities in the country have their own 
 
 ### :computer: WHAT DO WE PROPOSE?
 
-** stuDy ** is created with the aim of creating a support network so that people interested in carrying out the admission process to the IPN, is a space where users through publications can share, tips, experiences And anything that they think can help others to take a selection exam and start the university stage and thus make the process easier and more solid among applicants.
+**estuDÍA** is created with the aim of creating a support network so that people interested in carrying out the admission process to the IPN, is a space where users through publications can share, tips, experiences And anything that they think can help others to take a selection exam and start the university stage and thus make the process easier and more solid among applicants.
 
 ### :hourglass_flowing_sand: TO WORK!
 
@@ -36,32 +36,32 @@ In order to have a homogeneous distribution of the tasks to be carried out, to b
 ### :bust_in_silhouette: USER STORIES
 
 :one: 
-** ME ** as a new user.
-** I WANT ** to be able to create an account with valid email and password.
-** PARA ** to be able to log in and enter the social network.
+**ME** as a new user.
+**I WANT** to be able to create an account with valid email and password.
+**TO** be able to log in and enter the social network.
 
 :two: 
-** ME ** as a new user
-** I WANT ** to have the option to log in with my Google or Facebook account
-** FOR ** to enter the social network without creating a valid email account
+**ME** as a new user
+**I WANT** to have the option to log in with my Google or Facebook account
+**TO** enter the social network without creating a valid email account
 
 :three: 
-** ME ** as a logged in user
-** I WANT ** to create, save, modify in the same place (in place) and delete a private or public (post) publication, which can be a phrase or an image
+**ME** as a logged in user
+**I WANT** to create, save, modify in the same place (in place) and delete a private or public (post) publication, which can be a phrase or an image
 
 :four: 
-** ME ** As a logged in user
-** I WANT ** to be able to see all the public and private posts I have created so far, from the most recent to the oldest
-** TO ** be able to change the privacy settings of my post.
+**ME** As a logged in user
+**I WANT** to be able to see all the public and private posts I have created so far, from the most recent to the oldest
+**TO** be able to change the privacy settings of my post.
 
 :five: 
-** ME ** as a logged in user
-** I WANT ** to like and keep a count of likes in my publication as well as being able to write, save, edit or delete a comment in my publication
+**ME** as a logged in user
+**I WANT** to like and keep a count of likes in my publication as well as being able to write, save, edit or delete a comment in my publication
 
 :six: 
-** ME ** as a logged in user
-** I WANT ** to be able to enter the social network
-** FOR ** to be able to view the data of my created profile or edit it.
+**ME** as a logged in user
+**I WANT** to be able to enter the social network
+**TO** be able to view the data of my created profile or edit it.
 
 
 ### :heavy_check_mark: CRITERIA OF ACCEPTANCE
@@ -76,7 +76,7 @@ In order to have a homogeneous distribution of the tasks to be carried out, to b
 
 ### :heavy_check_mark: DEFINITION OF FINISHING
 
-The functionality meets satisfies the acceptance criteria.
+-The functionality meets satisfies the acceptance criteria.
 -The functionality has unit tests.
 -The visual design corresponds to the high fidelity prototype.-
 -The code of this functionality received code review.
