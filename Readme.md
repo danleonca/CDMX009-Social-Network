@@ -84,7 +84,7 @@ In order to have a homogeneous distribution of the tasks to be carried out, to b
 -Utility tests were carried out and feedback was implemented if deemed necessary.
 
 
-### :vhs: LOW-LOYALTY PROTOTYPE
+### :vhs: LOW-FIDELITY PROTOTYPE
 
 During this stage we designed the user interface, we thought the name of our web application, the distribution of the elements to consult and how it would look on a cell phone screen.
 
@@ -93,7 +93,7 @@ During this stage we designed the user interface, we thought the name of our web
 
 We sought feedback five times from our bootcamp partners.
 
-### :iphone: HIGH-LOYALTY PROTOTYPE
+### :iphone: HIGH-FIDELITY PROTOTYPE
 
 To develop this part we apply the feedback that our coach and our colleagues gave us, we also take into account the official colors of the National Polytechnic Institute: cherry and white. The hi-fi prototype was developed in Figma.
 
