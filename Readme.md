@@ -85,7 +85,7 @@ Para poder tener una distribución homogénea sobre las tareas a realizar, estar
 
 
 ### :vhs: PROTOTIPO DE BAJA FIDELIDAD
-Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería en una pantalla de celular. 
+Durante esta etapa diseñamos con lápiz la interfaz de usuario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería en una pantalla de celular. 
 <img src="src/img/init.jpg"> 
 <img src="src/img/init0.jpg"> 
 
