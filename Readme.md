@@ -21,7 +21,7 @@ La UNAM y el IPN dos de las universidades más grandes del país cuentan con sus
 
 ### :computer: ¿QUÉ PROPONEMOS?
 
-estuDÍA se crea con el objetivo de crear una red de apoyo para que llas personas interesadas en llevar a cabo el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria y así el proceso sea más fácil y solidarido entre los aspirantes. 
+**estuDÍA se crea con el objetivo de crear una red de apoyo para que llas personas interesadas en llevar a cabo el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria y así el proceso sea más fácil y solidarido entre los aspirantes. 
 
 
 ### :hourglass_flowing_sand: ¡A TRABAJAR! 
@@ -33,32 +33,32 @@ Para poder tener una distribución homogénea sobre las tareas a realizar, estar
 ### :bust_in_silhouette: HISTORIAS DE USUARIO 
 
 :one: 
-YO: Como usuario nuevo.
-QUIERO: poder crear una cuenta con email y password válidos.
-PARA: para poder iniciar sesion e ingresar a la red social.
+**YO** como usuario nuevo.
+**QUIERO** poder crear una cuenta con email y password válidos.
+**PARA** para poder iniciar sesion e ingresar a la red social.
 
 :two: 
-YO: como usuario nuevo
-QUIERO: poder tener la opción de iniciar sesión con mi cuenta de Google o Facebook
-PARA: para ingresar a la red social sin necesidad de crear una cuenta de email válido
+**YO** como usuario nuevo
+**QUIERO** poder tener la opción de iniciar sesión con mi cuenta de Google o Facebook
+**PARA** para ingresar a la red social sin necesidad de crear una cuenta de email válido
 
 :three: 
-YO: como usuario loggeado
-QUIERO: crear, guardar, modificar en el mismo lugar (in place) y eliminar una publicación (post) privada o pública, que puede ser una frase o una imagen
+**YO** como usuario loggeado
+**QUIERO** crear, guardar, modificar en el mismo lugar (in place) y eliminar una publicación (post) privada o pública, que puede ser una frase o una imagen
 
 :four: 
-YO: Como usuario loggeado 
-QUIERO: poder ver todos los posts públicos y privados que he creado hasta ese momento, desde el más reciente hasta el más antiguo
-PARA: poder cambiar la configuración de privacidad de mis post.
+**YO** Como usuario loggeado 
+**QUIERO** poder ver todos los posts públicos y privados que he creado hasta ese momento, desde el más reciente hasta el más antiguo
+**PARA** poder cambiar la configuración de privacidad de mis post.
 
 :five: 
-YO: como usuario loggeado
-QUIERO: dar like y llevar un conteo de likes en mi publicación así como poder escribir, guardar, editar o eliminar un comentario en mi publicación
+**YO** como usuario loggeado
+**QUIERO** dar like y llevar un conteo de likes en mi publicación así como poder escribir, guardar, editar o eliminar un comentario en mi publicación
 
 :six: 
-YO: como usuario loggeado 
-QUIERO: poder ingresar a la red social 
-PARA: para poder visualizar los datos de mi perfil creado o editarlo.
+**YO** como usuario loggeado 
+**QUIERO** poder ingresar a la red social 
+**PARA** para poder visualizar los datos de mi perfil creado o editarlo.
 
 
 ### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN POR HISTORIA DE USUARIO
@@ -79,7 +79,17 @@ PARA: para poder visualizar los datos de mi perfil creado o editarlo.
 -Se hicieron pruebas de usuabilidad y se implementó el feedback si se consideró necesario.
 
 
+### :vhs: PROTOTIPO DE BAJA FIDELIDAD
+Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería en una pantalla de celular. 
+<img src="src/img/init.jpg"> 
+<img src="src/img/init1.jpg"> 
 
+Buscamos el feedback en cinco ocasiones de nuestras compañeras de bootcamp.
+
+
+### :iphone: PROTOTIPO DE ALTA FIDELIDAD
+
+Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, también tomamos en cuenta los colores oficiales del Instituto Politécnico Nacional: guinda y blanco. El prototipo de alta fidelidad se desarrolló en Figma.
 
 
 ### Objetivos de aprendizaje
