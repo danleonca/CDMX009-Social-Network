@@ -5,13 +5,12 @@ El objetivo de este proyecto es construir una Red Social, Single-Page Applicatio
 
 ### :bulb: SELECCIÓN DE IDEA
 
-La temática elegida fue educación. ###estuDÍa es una red social en la que los usuarios tengan interés ingresar a la educacion superior especificamente al Instituto Politécnico Nacional. 
+La temática elegida fue educación **estuDÍa** es una red social en la que los usuarios tengan interés ingresar a la educacion superior especificamente al Instituto Politécnico Nacional. 
 
 
 ### :girl: :boy: USUARIOS
 
-###estuDÍa va dirigida a todas aquellas personas sin importar, edad, sexo u ocupación que quieran cursar estudios de nivel superior en el Instituto Politécnico Nacional. El objetivo de estuDÍA es que los usuarios puedan compartir publicaciones con tips de estudio, exámenes, ejercicios, recomendaciones de cursos, guías de estudio y cualquier cosa que pueda hacer más sencillo y comunitario el proceso de selección para ingresar al IPN.
-
+**estuDÍa** va dirigida a todas aquellas personas sin importar, edad, sexo u ocupación que quieran cursar estudios de nivel superior en el Instituto Politécnico Nacional.
 
 ### :rotating_light: PROBLEMÁTICA
 
@@ -22,25 +21,67 @@ La UNAM y el IPN dos de las universidades más grandes del país cuentan con sus
 
 ### :computer: ¿QUÉ PROPONEMOS?
 
-estuDÍA se crea con la finalidad de crear una red de apoyo para el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria. 
+estuDÍA se crea con el objetivo de crear una red de apoyo para que llas personas interesadas en llevar a cabo el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria y así el proceso sea más fácil y solidarido entre los aspirantes. 
 
 
 ### :hourglass_flowing_sand: ¡A TRABAJAR! 
-Para poder tener una distribución homogénea sobre las tareas a realizar y estar informadas de las catividades nos apoyamos de la herramienta Pojcts" de GitHub, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la tres integrantes del equipo.
+
+Para poder tener una distribución homogénea sobre las tareas a realizar, estar informadas de las actividades, aportar ideas nos apoyamos de la herramienta "Pojects" de GitHub, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la tres integrantes del equipo.
 <img src="src/img/projects.png"> 
-
-
 
 
 ### :bust_in_silhouette: HISTORIAS DE USUARIO 
 
 :one: 
+YO: Como usuario nuevo.
+QUIERO: poder crear una cuenta con email y password válidos.
+PARA: para poder iniciar sesion e ingresar a la red social.
 
-YO: como profesional de la salud.
+:two: 
+YO: como usuario nuevo
+QUIERO: poder tener la opción de iniciar sesión con mi cuenta de Google o Facebook
+PARA: para ingresar a la red social sin necesidad de crear una cuenta de email válido
 
-QUIERO: tener fácil acceso a los datos de pacientes.
+:three: 
+YO: como usuario loggeado
+QUIERO: crear, guardar, modificar en el mismo lugar (in place) y eliminar una publicación (post) privada o pública, que puede ser una frase o una imagen
 
-PARA: agilizar la búsqueda de la ficha de identificación de pacientes.
+:four: 
+YO: Como usuario loggeado 
+QUIERO: poder ver todos los posts públicos y privados que he creado hasta ese momento, desde el más reciente hasta el más antiguo
+PARA: poder cambiar la configuración de privacidad de mis post.
+
+:five: 
+YO: como usuario loggeado
+QUIERO: dar like y llevar un conteo de likes en mi publicación así como poder escribir, guardar, editar o eliminar un comentario en mi publicación
+
+:six: 
+YO: como usuario loggeado 
+QUIERO: poder ingresar a la red social 
+PARA: para poder visualizar los datos de mi perfil creado o editarlo.
+
+
+### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN POR HISTORIA DE USUARIO
+
+-Si el mail o password no es válido, al momento de logearme, debo poder ver un mensaje de error.
+-Debe ser visible si hay algún mensaje de error.
+-Debo poder ver esta página de creación en Móviles y desktop (responsive).
+-No debe necesitar recargar la página para crear una cuenta (SPA).
+
+### :heavy_check_mark: DEFINICIÓN DE TERMINADO 
+
+-La funcionalidad cumple satisface los criterios de aceptación.
+-La funcionalidad tiene test unitarios.
+-El diseño visual corresponde al prototipo de alta fidelidad.-
+-El código de esta funcionalidad recibió code review.
+-La funcionalidad esta desplegada y pública para ser probada.
+-La funcionalidad fue probada manualmente.
+-Se hicieron pruebas de usuabilidad y se implementó el feedback si se consideró necesario.
+
+
+
+
+
 ### Objetivos de aprendizaje
 
 
