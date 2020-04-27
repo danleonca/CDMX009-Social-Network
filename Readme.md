@@ -1,100 +1,102 @@
 # :book: estuDÍA
 
-El objetivo de este proyecto es construir una Red Social, Single-Page Application (SPA), responsiva en la que podamos escribir, leer, actualizar y eliminar datos. Es el primer proyecto del track FrontEnd de Laboratoria.
+The objective of this project is to build a responsive Single-Page Application (SPA) Social Network in which we can write, read, update and delete data. It is the first project on the Laboratory FrontEnd track.
   
 
-### :bulb: SELECCIÓN DE IDEA
+### :bulb: IDEA SELECTION
 
-La temática elegida fue educación **estuDÍa** es una red social en la que los usuarios tengan interés ingresar a la educacion superior especificamente al Instituto Politécnico Nacional. 
-
-
-### :girl: :boy: USUARIOS
-
-**estuDÍa** va dirigida a todas aquellas personas sin importar, edad, sexo u ocupación que quieran cursar estudios de nivel superior en el Instituto Politécnico Nacional.
-
-### :rotating_light: PROBLEMÁTICA
-
-En el año 2019, de los 92 mil aspirantes que concursarón para obtener un lugar en el nivel superior del Instituto Politécnico Nacional (IPN), sólo 26%, equivalente a 24 mil jóvenes, tuvó la oportunidad de estudiar en una de sus 66 carreras, en la modalidad escolarizada o no escolarizada. 
-
-En México la calidad educativa es deficiente y no se ecuentra estandarizada en las escuelas, en el caso de la eduación media superior los planes de estudio varian de una institución eduactiva a otra, por ejemplo el plan de estudio de un CONALEP y de un COBACH no son los mismos y la brecha educativa es aún más pronunciada en las escuelas del interior de la república. 
-
-La UNAM y el IPN dos de las universidades más grandes del país cuentan con sus propias instituciones de nivel medio superior (CCH,ENP y CECYT) en las cuáles los planes de estudio están diseñados para que sus egresados sean capaces de realizar y aprobar sus respectivos examenes de admisión para la educación superior. Sin embargo muchos estudiantes procedentes del interior de la republica, o de instituciones con poca calidad educativa se enfrentan con un vedadero reto a la hora de estudiar y entender temarios de exámenes de ingreso al IPN o a la UNAM. 
+The theme chosen was education. ** estuDÍA ** is a social network in which users have an interest in entering higher education specifically at the Instituto Politécnico Nacional. 
 
 
-### :computer: ¿QUÉ PROPONEMOS?
+### :girl: :boy: USERS
 
-**estuDÍA** se crea con el objetivo de crear una red de apoyo para que llas personas interesadas en llevar a cabo el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria y así el proceso sea más fácil y solidarido entre los aspirantes. 
+**estuDÍa** is aimed at all people regardless of age, sex or occupation who want to pursue higher level studies at the  Instituto Politécnico Nacional. 
 
 
-### :hourglass_flowing_sand: ¡A TRABAJAR! 
+### :rotating_light: PROBLEM
 
-Para poder tener una distribución homogénea sobre las tareas a realizar, estar informadas de las actividades, aportar ideas nos apoyamos de la herramienta "Pojects" de GitHub, así nuestro SCRUM podía ser consultado y modficado por cualquiera de la tres integrantes del equipo.
+In 2019, of the 92 thousand applicants who competed to obtain a place at the top level of the IPN, only 26%, equivalent to 24 thousand young people, had the opportunity to study in one of their 66 careers, in school or non-school modality.
+
+In Mexico, educational quality is poor and is not standardized in schools. In the case of upper secondary education, the study plans vary from one educational institution to another, for example, the study plan of a CONALEP and a COBACH. they are the same and the educational gap is even more pronounced in schools in the interior of the republic.
+
+The UNAM and the IPN two of the best universities in the country have their own upper-middle-level institutions (CCH, ENP and CECYT) in which the study plans are designed so that their graduates are able to take and pass their respective exams admission for higher education. However, many students from the interior of the republic, or from institutions with little educational quality, face a real challenge when it comes to studying and understanding subjects for entrance exams to the IPN or UNAM.
+
+
+### :computer: WHAT DO WE PROPOSE?
+
+** stuDy ** is created with the aim of creating a support network so that people interested in carrying out the admission process to the IPN, is a space where users through publications can share, tips, experiences And anything that they think can help others to take a selection exam and start the university stage and thus make the process easier and more solid among applicants.
+
+### :hourglass_flowing_sand: TO WORK!
+
+In order to have a homogeneous distribution of the tasks to be carried out, to be informed of the activities, to contribute ideas, we relied on the GitHub "Pojects" tool, so our SCRUM could be consulted and modified by any of the three team members.
+
 <img src="src/img/projects.png"> 
 
 
-### :bust_in_silhouette: HISTORIAS DE USUARIO 
+### :bust_in_silhouette: USER STORIES
 
 :one: 
-**YO** como usuario nuevo.
-**QUIERO** poder crear una cuenta con email y password válidos.
-**PARA** para poder iniciar sesion e ingresar a la red social.
+** ME ** as a new user.
+** I WANT ** to be able to create an account with valid email and password.
+** PARA ** to be able to log in and enter the social network.
 
 :two: 
-**YO** como usuario nuevo
-**QUIERO** poder tener la opción de iniciar sesión con mi cuenta de Google o Facebook
-**PARA** para ingresar a la red social sin necesidad de crear una cuenta de email válido
+** ME ** as a new user
+** I WANT ** to have the option to log in with my Google or Facebook account
+** FOR ** to enter the social network without creating a valid email account
 
 :three: 
-**YO** como usuario loggeado
-**QUIERO** crear, guardar, modificar en el mismo lugar (in place) y eliminar una publicación (post) privada o pública, que puede ser una frase o una imagen
+** ME ** as a logged in user
+** I WANT ** to create, save, modify in the same place (in place) and delete a private or public (post) publication, which can be a phrase or an image
 
 :four: 
-**YO** Como usuario loggeado 
-**QUIERO** poder ver todos los posts públicos y privados que he creado hasta ese momento, desde el más reciente hasta el más antiguo
-**PARA** poder cambiar la configuración de privacidad de mis post.
+** ME ** As a logged in user
+** I WANT ** to be able to see all the public and private posts I have created so far, from the most recent to the oldest
+** TO ** be able to change the privacy settings of my post.
 
 :five: 
-**YO** como usuario loggeado
-**QUIERO** dar like y llevar un conteo de likes en mi publicación así como poder escribir, guardar, editar o eliminar un comentario en mi publicación
+** ME ** as a logged in user
+** I WANT ** to like and keep a count of likes in my publication as well as being able to write, save, edit or delete a comment in my publication
 
 :six: 
-**YO** como usuario loggeado 
-**QUIERO** poder ingresar a la red social 
-**PARA** para poder visualizar los datos de mi perfil creado o editarlo.
+** ME ** as a logged in user
+** I WANT ** to be able to enter the social network
+** FOR ** to be able to view the data of my created profile or edit it.
 
 
-### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN
+### :heavy_check_mark: CRITERIA OF ACCEPTANCE
 
--Si el mail o password no es válido, al momento de logearme, debo poder ver un mensaje de error.
--Debe ser visible si hay algún mensaje de error.
--Debo poder ver esta página de creación en Móviles y desktop (responsive).
--No debe necesitar recargar la página para crear una cuenta (SPA).
--Debo poder publicar texto e imagenes.
--El usuario debe poder filtrar, editar y eliminar sus publicaciones. 
-
-
-### :heavy_check_mark: DEFINICIÓN DE TERMINADO 
-
--La funcionalidad cumple satisface los criterios de aceptación.
--La funcionalidad tiene test unitarios.
--El diseño visual corresponde al prototipo de alta fidelidad.-
--El código de esta funcionalidad recibió code review.
--La funcionalidad esta desplegada y pública para ser probada.
--La funcionalidad fue probada manualmente.
--Se hicieron pruebas de usuabilidad y se implementó el feedback si se consideró necesario.
+-If the email or password is not valid, when logging in, I should be able to see an error message.
+-It should be visible if there is any error message.
+-I must be able to see this creation page on Mobile and desktop (responsive).
+-You do not need to reload the page to create an account (SPA).
+-I must be able to publish text and images.
+-The user must be able to filter, edit and delete their publications.
 
 
-### :vhs: PROTOTIPO DE BAJA FIDELIDAD
-Durante esta etapa diseñamos con lápiz la interfaz de usuario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería en una pantalla de celular. 
+### :heavy_check_mark: DEFINITION OF FINISHING
+
+The functionality meets satisfies the acceptance criteria.
+-The functionality has unit tests.
+-The visual design corresponds to the high fidelity prototype.-
+-The code of this functionality received code review.
+-The functionality is deployed and public to be tested.
+-The functionality was manually tested.
+-Utility tests were carried out and feedback was implemented if deemed necessary.
+
+
+### :vhs: LOW-LOYALTY PROTOTYPE
+
+During this stage we designed the user interface, we thought the name of our web application, the distribution of the elements to consult and how it would look on a cell phone screen.
+
 <img src="src/img/init.jpg"> 
 <img src="src/img/init0.jpg"> 
 
-Buscamos el feedback en cinco ocasiones de nuestras compañeras de bootcamp.
+We sought feedback five times from our bootcamp partners.
 
+### :iphone: HIGH-LOYALTY PROTOTYPE
 
-### :iphone: PROTOTIPO DE ALTA FIDELIDAD
-
-Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros coach y nuestras compañeras, también tomamos en cuenta los colores oficiales del Instituto Politécnico Nacional: guinda y blanco. El prototipo de alta fidelidad se desarrolló en Figma.
+To develop this part we apply the feedback that our coach and our colleagues gave us, we also take into account the official colors of the National Polytechnic Institute: cherry and white. The hi-fi prototype was developed in Figma.
 
 <img src="src/img/inicioSesión.png"> 
 <img src="src/img/noticias.png"> 
@@ -102,7 +104,7 @@ Para poder desarrollar esta parte aplicamos el feedback que nos dieron nuesros c
 <img src="src/img/modal.png"> 
 
 
-### :pencil: OBJETIVOS DE APRENDIZAJE 
+### :pencil: LEARNING OBJECTIVES
 
 ### HTML y CSS
 
