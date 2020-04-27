@@ -21,7 +21,7 @@ La UNAM y el IPN dos de las universidades más grandes del país cuentan con sus
 
 ### :computer: ¿QUÉ PROPONEMOS?
 
-**estuDÍA se crea con el objetivo de crear una red de apoyo para que llas personas interesadas en llevar a cabo el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria y así el proceso sea más fácil y solidarido entre los aspirantes. 
+**estuDÍA** se crea con el objetivo de crear una red de apoyo para que llas personas interesadas en llevar a cabo el proceso de admisión al Instituto Politécnico Nacional, es un espacio dónde los usuarios por medio de publicaciones puedan compartir, tips, experiencias y cualquier cosa que crean que pueda ayudar a otros a realizar un exámen de selección e inciar la etapa universitaria y así el proceso sea más fácil y solidarido entre los aspirantes. 
 
 
 ### :hourglass_flowing_sand: ¡A TRABAJAR! 
