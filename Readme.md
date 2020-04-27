@@ -1,6 +1,6 @@
 # :book: estuDÍA
 
-El objetivo de este proyecto es construir una Red Social, Single-Page Application (SPA), responsiva en la que podamos escribir, leer, actualizar y eliminar datos. Es el primer proyecto del track FrontEnd de <Laboratoria>.
+El objetivo de este proyecto es construir una Red Social, Single-Page Application (SPA), responsiva en la que podamos escribir, leer, actualizar y eliminar datos. Es el primer proyecto del track FrontEnd de Laboratoria.
   
 
 ### :bulb: SELECCIÓN DE IDEA
@@ -85,7 +85,7 @@ Para poder tener una distribución homogénea sobre las tareas a realizar, estar
 ### :vhs: PROTOTIPO DE BAJA FIDELIDAD
 Durante esta etapa diseñamos con lápiz nuesra interfaz de usuario, pensamos el nombre de nuestra aplicación web,la distribución de los elementos a consultar y cómo se vería en una pantalla de celular. 
 <img src="src/img/init.jpg"> 
-<img src="src/img/init1.jpg"> 
+<img src="src/img/init0.jpg"> 
 
 Buscamos el feedback en cinco ocasiones de nuestras compañeras de bootcamp.
 
