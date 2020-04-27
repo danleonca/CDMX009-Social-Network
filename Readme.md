@@ -14,7 +14,9 @@ La temática elegida fue educación **estuDÍa** es una red social en la que los
 
 ### :rotating_light: PROBLEMÁTICA
 
-En el año 2019, de los 92 mil aspirantes que concursarón para obtener un lugar en el nivel superior del Instituto Politécnico Nacional (IPN), sólo 26%, equivalente a 24 mil jóvenes, tuvó la oportunidad de estudiar en una de sus 66 carreras, en la modalidad escolarizada o no escolarizada. En México la calidad educativa es deficiente y no se ecuentra estandarizada en las escuelas, en el caso de la eduación media superior los planes de estudio varian de una institución eduactiva a otra, por ejemplo el plan de estudio de un CONALEP y de un COBACH no son los mismos y la brecha educativa es aún más pronunciada en las escuelas del interior de la república. 
+En el año 2019, de los 92 mil aspirantes que concursarón para obtener un lugar en el nivel superior del Instituto Politécnico Nacional (IPN), sólo 26%, equivalente a 24 mil jóvenes, tuvó la oportunidad de estudiar en una de sus 66 carreras, en la modalidad escolarizada o no escolarizada. 
+
+En México la calidad educativa es deficiente y no se ecuentra estandarizada en las escuelas, en el caso de la eduación media superior los planes de estudio varian de una institución eduactiva a otra, por ejemplo el plan de estudio de un CONALEP y de un COBACH no son los mismos y la brecha educativa es aún más pronunciada en las escuelas del interior de la república. 
 
 La UNAM y el IPN dos de las universidades más grandes del país cuentan con sus propias instituciones de nivel medio superior (CCH,ENP y CECYT) en las cuáles los planes de estudio están diseñados para que sus egresados sean capaces de realizar y aprobar sus respectivos examenes de admisión para la educación superior. Sin embargo muchos estudiantes procedentes del interior de la republica, o de instituciones con poca calidad educativa se enfrentan con un vedadero reto a la hora de estudiar y entender temarios de exámenes de ingreso al IPN o a la UNAM. 
 
