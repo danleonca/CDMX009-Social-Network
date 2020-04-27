@@ -3,10 +3,9 @@
 The objective of this project is to build a responsive Single-Page Application (SPA) Social Network in which we can write, read, update and delete data. It is the first project on the Laboratory FrontEnd track.
   
 
+
 ### :bulb: IDEA SELECTION
-
-The theme chosen was education. **estuDÍA** is a social network in which users have an interest in entering higher education specifically at the Instituto Politécnico Nacional. 
-
+The chosen theme was education. **estuDÍA** is a social network in which users have an interest in entering their university studies specifically at the Instituto Politécnico Nacional.
 
 ### :girl: :boy: USERS
 
@@ -108,21 +107,21 @@ To develop this part we apply the feedback that our coach and our colleagues gav
 
 ### HTML y CSS
 
-* [ ] [HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [ ] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [ ] Build your application respecting the design made (layout).
 
 ### DOM y Web APIs
 
-* [ ] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+* [ ] [Dynamic DOM manipulation](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 * [ ] [History API](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
 * [ ] [`localStorage`]
 
 ### Javascript
 
-* [ ] [Uso de callbacks](https://developer.mozilla.org/es/docs/Glossary/Callback_function)
-* [ ] [Consumo de Promesas](https://scotch.io/tutorials/javascript-promises-for-dummies#toc-consuming-promises)
-* [ ] Uso ES modules
+* [ ] [Use of callbacks](https://developer.mozilla.org/es/docs/Glossary/Callback_function)
+* [ ] [Consumption of Promises](https://scotch.io/tutorials/javascript-promises-for-dummies#toc-consuming-promises)
+* [ ] ES modules
 ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
 
@@ -131,32 +130,32 @@ To develop this part we apply the feedback that our coach and our colleagues gav
 * [ ] [Firestore](https://firebase.google.com/docs/firestore)
 * [ ] [Firebase Auth](https://firebase.google.com/docs/auth/web/start)
 * [ ] [Firebase security rules](https://firebase.google.com/docs/rules)
-* [ ] [Uso de onSnapshot](https://firebase.google.com/docs/firestore/query-data/listen)
+* [ ] [Use of onSnapshot](https://firebase.google.com/docs/firestore/query-data/listen)
 | [onAuthStateChanged](https://firebase.google.com/docs/auth/web/start#set_an_authentication_state_observer_and_get_user_data)
 
 ### Testing
 
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
-* [ ] [Testeo asíncrono](https://jestjs.io/docs/es-ES/asynchronous)
+* [ ] [Testing your functions](https://jestjs.io/docs/es-ES/getting-started)
+* [ ] [Asynchronous testing](https://jestjs.io/docs/es-ES/asynchronous)
 * [ ] [Mocking](https://jestjs.io/docs/es-ES/manual-mocks)
 
-### Colaboración en Github
+### Collaboration on Github
 
 * [ ] Branches
 * [ ] Pull Requests
 * [ ] Tags
 
-### Organización en Github
+### Organization on Github
 
 * [ ] Projects
 * [ ] Issues
 * [ ] Labels
 * [ ] Milestones
 
-### Buenas prácticas de desarrollo
+### Good development practices
 
-* [ ] Modularización
-* [ ] Nomenclatura / Semántica
+* [ ] Modularization
+* [ ] Nomenclature / Semantics
 * [ ] Linting
 
 
