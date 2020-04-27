@@ -61,12 +61,15 @@ Para poder tener una distribución homogénea sobre las tareas a realizar, estar
 **PARA** para poder visualizar los datos de mi perfil creado o editarlo.
 
 
-### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN POR HISTORIA DE USUARIO
+### :heavy_check_mark: CRITERIOS DE ACEPTACIÓN
 
 -Si el mail o password no es válido, al momento de logearme, debo poder ver un mensaje de error.
 -Debe ser visible si hay algún mensaje de error.
 -Debo poder ver esta página de creación en Móviles y desktop (responsive).
 -No debe necesitar recargar la página para crear una cuenta (SPA).
+-Debo poder publicar texto e imagenes.
+-El usuario debe poder filtrar, editar y eliminar sus publicaciones. 
+
 
 ### :heavy_check_mark: DEFINICIÓN DE TERMINADO 
 
