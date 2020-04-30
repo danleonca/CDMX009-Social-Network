@@ -149,15 +149,14 @@ shareBtn.addEventListener("click", () => {
 
   //  add comments in firestore***********************************************************************************************
 
-  db.collection("publications")
-    .add({
-      Name: getName,
-      Photo: getImg,
-      Date: date1,
-      Comments: coment.value,
-      Likes: "",
-      Image: url,
-    })
+  db.collection("publications").add({
+    Name: getName,
+    Photo: getImg,
+    Date: date1,
+    Comments: coment.value,
+    Likes: 0,
+    Image: url || '' ,
+  })
     .then(function (docRef) {
       console.log("Document written with ID: ", docRef.id);
       console.log(coment.value);
@@ -189,74 +188,139 @@ fileInput.onchange = (e) => {
 };
 
 //to print all the comments in real time******************************************************************************************
-let printing = document.querySelector("#addComents");
-let cards = () => {
-  db.collection("publications")
-    .orderBy("Date", "desc")
-    .onSnapshot((querySnapshot) => {
-      (printing.innerHTML = ""),
-        querySnapshot.forEach((doc) => {
-          //console.log(doc)
-          let posting = document.createElement("div");
-          let createTarget = `<div id="card2" class='allComents'>
-    <header class="styleNamePost">
-     <img src="${doc.data().Photo}" class="imgProfilePost">
-     <div class="nameDate"><strong>${doc.data().Name}</strong>
-     <p> ${doc.data().Date}</p></div></header>
-    <p id="areaComment"> ${doc.data().Comments}</p>
-    <p><img width="300" src="${doc.data().Image}"/></p>
-    <p> likes ${doc.data().Likes} </p> 
-    <p><img src="img/like.svg" id="btnLike" class="btnStyles"> 
-    <button id="${doc.id}" class="btnStylesEdit" class="btnStyles">Edit</button>
-    <button id="${doc.id}" class="btnStyles1">Borrar</button></p></div>`;
-          posting.innerHTML = createTarget;
-          printing.appendChild(posting);
+let printing = document.querySelector('#addComents');
+db.collection("publications").orderBy("Date", "desc").onSnapshot((querySnapshot) => {
+  printing.innerHTML = '',
+    querySnapshot.forEach((doc) => {
+      //console.log(doc)
+      addNewCardNoComents(printing, doc); 
+      
 
-          //delete comments **************************************************************************************************************
-          let btn2 = document.querySelectorAll(".btnStyles1");
-          let actionDelete = (e) => {
-            db.collection("publications")
-              .doc(e.target.id)
-              .delete()
-              .then(function () {
-                console.log("Document successfully deleted!");
-              })
-              .catch(function (error) {
-                console.error("Error removing document: ", error);
-              });
-          };
-          btn2.forEach((actionBtn) =>
-            actionBtn.addEventListener("click", actionDelete)
-          );
 
-          // edit post ********************************************************************
-
-          let btnEdit = document.querySelectorAll(".btnStylesEdit");
-
-          let actionEdit = (e) => {
-            let divNodeEdit = document.createElement("div");
-            let boxEdit = `<div id="edit" class="divEdit"> 
-         <textarea id="editText" cols="50" rows="5" placeholder="Editar Comentario"></textarea></div>`;
-            divNodeEdit.innerHTML = boxEdit;
-           posting.appendChild(divNodeEdit);
-
-            return db
-              .collection("publications")
-              .doc(e.target.id)
-              .update({
-                Comments: comments,
-              })
-              .then(function () {
-                console.log("Document successfully written!");
-              })
-              .catch(function (error) {
-                console.error("Error writing document: ", error);
-              });
-          };
-
-          btnEdit.forEach((actionUpdate) =>
-            actionUpdate.addEventListener("click", actionEdit)
-          );
-        });
     });
+  });
+  
+function addNewCard (printing, doc)  {
+  let posting = document.createElement('div');
+  let createTarget = `<div id="card2" class='allComents'>
+<header class="styleNamePost">
+ <img src="${doc.data().Photo}" class="imgProfilePost">
+ <div class="nameDate"><strong>${doc.data().Name}</strong>
+ <p> ${doc.data().Date}</p></div></header>
+<p> ${doc.data().Comments}</p>
+<p><img src="${doc.data().Image}"/></p>
+<div class="btnLikes"> 
+<p> likes ${doc.data().Likes} </p> 
+<p><img src="img/like.svg" name="${doc.id}" class="btnLike"> 
+<button id="btnEdit" value="${doc.id}" class="btnStylesEdit" class="btnStyles">Edit</button>
+<button id="${doc.id}" class="btnStyles1">Borrar</button></p></div></div>`
+  posting.innerHTML = createTarget;
+  printing.appendChild(posting);  
+
+  let btn2 = document.querySelectorAll('.btnStyles1');
+  btn2.forEach(actionBtn => actionBtn.addEventListener("click", actionDelete))
+
+  let btnlike = document.querySelectorAll('.btnLike');
+  btnlike.forEach(actionBtnLikes=> actionBtnLikes.addEventListener('click', addLikes));
+
+  //let btnEdit= document.querySelectorAll('.btnStylesEdit');
+  //btnEdit.forEach(actionEdit=> actionEdit.addEventListener('click', openModalEdit));  
+}
+
+function addNewCardNoComents (printing, doc)  {
+  let posting = document.createElement('div');
+  let createTarget = `<div id="card2" class='allComents'>
+<header class="styleNamePost">
+ <img src="${doc.data().Photo}" class="imgProfilePost">
+ <div class="nameDate"><strong>${doc.data().Name}</strong>
+ <p> ${doc.data().Date}</p></div></header>
+<p> ${doc.data().Comments}</p>
+<p><img width="200" src="${doc.data().Image}"/></p>
+<p> likes ${doc.data().Likes} </p> <div class ="like">
+<p><img src="img/like.svg" name="${doc.id}" class="btnLike"> </div>
+`
+  posting.innerHTML = createTarget;
+  printing.appendChild(posting);  
+
+  let btnlike = document.querySelectorAll('.btnLike');
+  btnlike.forEach(actionBtnLikes=> actionBtnLikes.addEventListener('click', addLikes));
+
+}
+
+
+
+/////*********filtrado+++++´´´´´´¨¨¨¨ */
+let goToPrincipal= document.querySelector('#allComents');
+goToPrincipal.addEventListener('click', () => {
+printing.style.display= 'block';
+filterMyComents.style.display='none';
+filterComents.style.display='none';
+})
+
+let filterComents= document.querySelector('#addFilters');
+let filterMyComents= document.querySelector('#addMyComents');
+let filterName= document.querySelector('#searchName');
+let btnFilter=document.querySelector('#searchButtom1');
+let btnMySite= document.querySelector('#myWall');
+
+
+btnMySite.addEventListener('click', () => {
+  console.log(filterName.value);
+  filterMyComents.style.display= 'block';
+  printing.style.display= 'none';
+  filterComents.style.display='none';
+//mi muro
+db.collection('publications').where('Name', '==', getName ||  getEmail).onSnapshot((filters)=>{ 
+  filterMyComents.innerHTML = '',        
+  filters.forEach((doc) => {
+            addNewCard(filterMyComents, doc);
+            
+          })
+        })
+ 
+  })
+
+btnFilter.addEventListener('click', () => {
+  console.log(filterName.value);
+  filterMyComents.style.display= 'none';
+  printing.style.display= 'none';
+  filterComents.style.display='block';
+//filtrar usuarios
+db.collection('publications').where('Name', '==', filterName.value).onSnapshot((filters)=>{ 
+  filterComents.innerHTML = '',        
+  filters.forEach((doc) => {
+    addNewCardNoComents(filterComents, doc);
+          })
+        })
+ 
+  })
+// le podemos poner estos para ordenar .orderBy("Date", "desc") pero el timepo real ya no agarra porque necesita un index
+
+//**************************************DELETE */
+  let actionDelete = (e)=>{
+      db.collection("publications").doc(e.target.id).delete()
+      .then(function () {
+        console.log("Document successfully deleted!");
+      }).catch(function (error) {
+        console.error("Error removing document: ", error);
+      });
+    } 
+      
+//**********************************LIKES********
+let addLikes = (e)=> {
+
+ db.collection('publications').doc(e.target.name).update({
+  Likes: firebase.firestore.FieldValue.increment(+1)
+});
+
+
+}
+
+
+/* open modal************************************ */
+
+function openModal () {
+  document.getElementById("infoModal").style.display="block";
 };
+
+
