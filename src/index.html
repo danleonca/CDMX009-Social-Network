@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link  rel="icon"   href="img/estudia.png" type="image/png" />
   <link rel="stylesheet" href="style.css" media="screen and (min-width: 200px)">
   <link href="https://fonts.googleapis.com/css?family=Poppins|Montserrat|Roboto|Quicksand:wght@700&display=swap" rel="stylesheet">
   <title>estuDÍA</title>
@@ -39,10 +40,13 @@
         </a>
       </div>
       <div class="user">
-        <img src="img/info.svg" id="info" class= "btnStyles" style="width:40px; height:auto;"> <br>
+        <img  src="img/info.svg" id="infoModal" class= "btnStyles" style="width:40px; height:auto;"> <br>
         <img src="img/Group.svg" id="logOut" class = "btnStyles" style="width:40px; height:auto;">
       </div>
     </div>
+  </div>
+  <div id="infoModal" class="modal">
+    No estudies solo
   </div>
   <main>
     <!-- Text Box-->
@@ -58,14 +62,15 @@
                 
               </div>
               
-                  <textarea id="text-box" cols="20" rows="5" placeholder="Comparte tus tips"></textarea>
-                  
+                  <textarea id="text-box" cols="40" rows="5" placeholder="Comparte tus tips"></textarea>
+                 
                              
             </div>
             <div id="btnsPost" class ="divBtnsPost">
 <input id="file" type="file" accept="image/*" multiple></input> 
-              <!-- <img src="img/img.svg" id="btnImage" class="btnStyles" type="file" accept="jpg/png"> -->
+           
               <button id="btnShare" class="btnStyles">Compartir</button>
+
             </div>
             <!-- News desktop view -->
             <div class="desktop-view">
@@ -124,10 +129,7 @@
               <label for="tab1" role="tab" aria-selected="true" aria-controls="panel1" tabindex="0"> Noticias </label>
               <div id="tab-content-charts" class="tab-content" role="tabpanel" aria-labelledby="description"
                 aria-hidden="false">
-                <div class="search">
-                  <input type="text" class="search-Box" id="search" placeholder="Buscar...">
-                  <input type="button" btn class = "btnStyles" id="search1" value="Buscar">
-                </div>
+
                 <div class="subtitle">
                   <h3>Test Vocacional</h3>
                   <a title="test" href="http://www.decidetusestudios.sep.gob.mx/vista/test-vocacional/"
@@ -160,11 +162,17 @@
 
               <div id="tab-content-table1" class="tab-content cardPatient" role="tabpanel"
                 aria-labelledby="specification" aria-hidden="true">
-                <div class="search">
+               
 
-                  <input type="text" class="search-Box" id="search" placeholder="Buscar...">
-                  <input type="button" btn class = "btnStyles" id="search1" value="Buscar">
-                  <div id="addComents" ></div>
+                  <input type="text" class="search-Box" id="searchName" width="15px" placeholder="Nombre de usuario"></input>
+                  <div class="search">
+                  <button  class = "btnStyles" id="searchButtom1">Buscar</button>
+                  <button  class = "btnStyles" id="allComents">Ver todos</button>
+                  <button id="myWall" class= "btnStyles">Mi Muro</button>
+                  <div id="addComents"></div>
+                  <div id="addMyComents"></div>
+                  <div id="addFilters"></div>
+                
                 </div>
               </div>
             </li>
