@@ -171,7 +171,7 @@ function addNewCardNoComents(printing2, doc) {
  <img src="${doc.data().photo}" class="imgProfilePost">
  <div class="nameDate"><strong>${doc.data().name}</strong>
  <p> ${doc.data().date}</p></div></header>
- <p style="margin-top:10%">${doc.data().comments}</p>
+ <p style="margin-top:5%">${doc.data().comments}</p>
 <p><img width="200" src="${doc.data().image}"/></p>
 <div class="like"><img src="img/like.svg" name="${
   doc.id
