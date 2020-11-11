@@ -173,10 +173,10 @@ function addNewCardNoComents(printing2, doc) {
  <p> ${doc.data().date}</p></div></header>
  <p>${doc.data().comments}</p>
 <p><img width="200" src="${doc.data().image}"/></p>
-<p> likes ${doc.data().likes} </p> 
 <div class="like"><img src="img/like.svg" name="${
   doc.id
 }" class="btnLike"></div>
+<p class="like"> likes ${doc.data().likes} </p> 
 <button class="btnComment" data-id="${doc.id}">Comentar</button>
 <div class="text-box" title="${doc.id}"><ul><div>Comentarios:</div>
 <br>${doc.data().addComent}</ul></div>`;

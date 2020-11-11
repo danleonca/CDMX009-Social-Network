@@ -23,6 +23,11 @@ body {
   display: block;
 }
 
+.border-img{
+  border-radius: 50px;
+  margin-top: 5%;
+}
+
 #firstElement {
   padding: 70px;
   margin: 5px;

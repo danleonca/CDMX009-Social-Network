@@ -1,7 +1,7 @@
 //* ****************login with socialmedia**************************
 export function actionGoogle() {
-  const providerGoogle = new firebase.auth.GoogleAuthProvider();
-  return firebase.auth().signInWithPopup(providerGoogle);
+  const provider = new firebase.auth.GoogleAuthProvider()
+  return firebase.auth().signInWithPopup(provider);
 }
 
 export function actionFacebook() {
